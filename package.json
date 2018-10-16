@@ -4,11 +4,13 @@
   "description": "A project to showcase workflows",
   "repository": {
     "type": "git",
-    "url": "?.git"
+    "url": "https://github.com/cmatnewbury/workflows.git"
   },
   "author": "Tina Newbury",
   "devDependencies": {
     "gulp": "^4.0.0",
+    "gulp-coffee": "^3.0.2",
+    "gulp-concat": "^2.6.1",
     "gulp-util": "^3.0.8"
   },
   "dependencies": {}
