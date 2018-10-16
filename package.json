@@ -6,5 +6,10 @@
     "type": "git",
     "url": "?.git"
   },
-  "author": "Tina Newbury"
+  "author": "Tina Newbury",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {}
 }
