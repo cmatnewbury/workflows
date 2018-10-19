@@ -49,10 +49,12 @@ gulp.task('compass', function(done){
         done();
 });
 
-gulp.task('default',  gulp.parallel('coffee','js','compass'));
-
 gulp.task('watch', function(){
     gulp.watch(coffeeSources, gulp.parallel('coffee'));
     gulp.watch(jsSources, gulp.parallel('js'));
     gulp.watch('components/sass/*.scss', gulp.parallel('compass'));
 });
+
+
+gulp.task('default',  gulp.parallel('coffee','js','compass', 'watch'));
+
